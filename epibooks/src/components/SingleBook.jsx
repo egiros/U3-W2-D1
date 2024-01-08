@@ -3,9 +3,9 @@ import { Card } from "react-bootstrap";
 // import CommentArea from './CommentArea'
 
 class SingleBook extends Component {
-  // state = {
-  //   selected: false,
-  // };
+  state = {
+    selected: false,
+  };
 
   render() {
     return (

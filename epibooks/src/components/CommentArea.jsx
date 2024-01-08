@@ -7,7 +7,7 @@ import Error from "./Error";
 class CommentArea extends Component {
   state = {
     comments: [],
-    isLoading: true,
+    isLoading: false,
     isError: false,
   };
 
